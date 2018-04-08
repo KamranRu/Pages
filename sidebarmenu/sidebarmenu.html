@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sidemenubar</title>
+	<link rel="stylesheet" type="text/css" href="sidebarmenu.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<div id="main">
+	<nav>
+		<div id="sidebar">
+
+			<ul>
+				<li><a href="#"><font color="#b4eb0d"><i class="fa fa-address-card" aria-hidden="true"></i></font> Timeline</a></li>
+		        <li><a href="#"><font color="#b4eb0d"><i class="fa fa-bullhorn" aria-hidden="true"></i></font> Event</a></li>
+		        <li><a href="#"><font color="#b4eb0d"><i class="fa fa-calendar" aria-hidden="true"></i></font> Calender</a></li>
+		        <li><a href="#"><font color="#b4eb0d"><i class="fa fa-address-book" aria-hidden="true"></i></font> My Profile</a></li>
+		        <li><a href="#"><font color="#b4eb0d"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></font> My Order</a></li>
+
+			</ul>
+
+			<div id="sidebar-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</nav>
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('#sidebar-btn').click(function(){
+				$('#sidebar').toggleClass('visible');
+			});
+		});
+	</script>
+ 
+<div class="container">
+	<p><font size="4">&copy;Design By KAMRAN ALAM</font></p>
+</div>
+
+
+</body>
+</html>
