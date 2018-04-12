@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home page</title>
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+
+</head>
+<body>
+
+<div class="main1">
+	<nav>
+	<section class="nav-container">
+<aside class="logo"><img src="images/logo.jpg"width="200" height="65"></aside>
+<aside class="menu">
+<div class="menu-content">
+<i class="fa fa-user" aria-hidden="true"></i><a href="#" id=login> Login</a> | <i class="fa fa-user-plus" aria-hidden="true"></i>
+<a href="#" id=register>Register</a>
+
+</div>
+
+<div class="arrow-up"></div>
+
+</aside>
+
+<div class="login-form">
+
+<form>
+	<div>
+
+    <label>Username</label>
+
+	<input type="text" placeholder="Username" required/>
+</div>
+
+<div>
+	<label>Password</label>
+	<input type="password" placeholder="Password" required/>
+</div>
+<div>
+	<input type="submit" value="Log In"/>
+</div>
+<div>
+	<a href="#" style="text-decoration:none;position:relative;top:20px;font-size:16px;color:gray;">Lost Your Password</a>
+</div>
+</form>
+</div>
+
+<div class="arrow-up1"></div>
+<div class="login-form1">
+
+<form>
+    <div>
+
+    <label>Username</label>
+
+	<input type="text" placeholder="Username" required/>
+</div>
+
+<div>
+	<label>Password</label>
+	<input type="password" placeholder="Password" required/>
+</div>
+<div>
+	<label>Re-Enter</label>
+	<input type="password" placeholder="Re-Enter-Password" required/>
+</div>
+<div>
+	<label>Phone-No</label>
+	<input type="password" placeholder="Enter-Phone-No" required/>
+</div>
+<div>
+	<input type="submit" value="Log In"/>
+</div>
+	
+</div>
+</form>
+
+</div>
+
+</section>
+</nav>
+
+	
+
+<br><br>
+
+<div class="footer">
+<p1><font size="4">&copy;Design by KAMRAN ALAM</font></p1>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+	var arrow = $(".arrow-up");
+	var form = $(".login-form");
+	var status = false;
+	$("#login").click(function(){
+		if(status == false){
+			arrow.fadeIn();
+			form.fadeIn();
+			status = true;
+		}else{
+			arrow.fadeOut();
+			form.fadeOut();
+			status = false;
+		}
+	})
+	})
+
+</script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+	var arrow = $(".arrow-up1");
+	var form = $(".login-form1");
+	var status = false;
+	$("#register").click(function(){
+		if(status == false){
+			arrow.fadeIn();
+			form.fadeIn();
+			status = true;
+		}else{
+			arrow.fadeOut();
+			form.fadeOut();
+			status = false;
+		}
+	})
+	})
+</script>
+
+</body>
+</html>

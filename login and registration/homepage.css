@@ -1,0 +1,168 @@
+
+*{
+margin: 0;
+padding: 0;
+position: relative;
+font-family:"Helvetica Neue", Helvetica, Arial;
+
+}
+
+body{
+	background-image: url('images/foot.jpg');
+	background-size: cover;
+}
+
+nav{
+width: 100%;
+height: 65px;
+position: relative;
+background-color: #0005;
+
+}
+.nav-container{
+width: 1000px; 
+margin: 0 auto;
+position: relative;
+background: #80ff80;
+}
+.nav-container>.logo{
+
+float: left;
+margin-left: 400px;
+}
+
+.menu{
+width: 100%;
+height: 65%;
+background: #f12308;
+}
+.menu>.menu-content{
+width: 200px;
+height: 65px;
+float: right;
+font-family: sans-serif,Arial;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: -0.05em;
+position: relative;
+color: #3b0af2;
+line-height: 65px;
+}
+.menu>.menu-content>a{
+color: #f21740;
+text-decoration: none;
+}
+.arrow-up{
+width: 0;
+height: 0;
+position: absolute;
+border-left: 20px solid transparent;
+border-right:20px solid transparent;
+border-bottom: 20px solid #100f0f;
+right: 151px;
+top: 50px;
+display: none;
+}
+.login-form{
+position: absolute;
+width: 300px;
+height: auto;
+background: #100f0f;
+right: 58px;
+top: 60px;
+border-radius: 3px;
+border-bottom: 5px solid #ada5a5;
+display: none;
+}
+.login-form>form{
+width: 250px;
+margin: 25px auto;
+font-size: 20px;
+font-family: sans-serif,Arial;
+color:gray;
+Letter-spacing: -0.05em;
+}
+input[type="text"],
+input[type="password"]{
+width: 240px;
+height: 30px;
+border:0px;
+outline: none;
+box-shadow: inset 0 0 10px #ac16f2;
+border-radius: 5px;
+margin-bottom: 10px;
+color: #050505;
+margin-top:5px;
+font-family: sans-serif,Arial;
+font-size: 16px;
+}
+input[type="submit"]{
+width: 95%;
+height: 35px;
+background: #0c38f8;
+font-size: 20px;
+font-weight: bold;
+font-family: sans-serif,Arial;
+color: white;
+outline: none;
+border:0px;
+border-radius: 3px;
+Letter-spacing: -0.05em;
+cursor: pointer;
+}
+input[type="submit"]:hover{
+background:#aff508;
+}
+
+.arrow-up1{
+width: 0;
+height: 0;
+position: absolute;
+border-left: 20px solid transparent;
+border-right:20px solid transparent;
+border-bottom: 20px solid #100f0f;
+right: 60px;
+top: 50px;
+display: none;
+
+}
+.login-form1{
+position: absolute;
+width: 350px;
+height: auto;
+background: #100f0f;
+left: 820px;
+top: 60px;
+border-radius: 3px;
+border-bottom: 5px solid gray;
+display: none;
+}
+.login-form1>form{
+width: 250px;
+margin: 25px auto;
+font-size: 20px;
+font-family: sans-serif,Arial;
+color:gray;
+Letter-spacing: -0.05em;
+}
+
+.nav-container>.logo{
+   float: left;
+   margin-left: 400px;
+}
+
+
+.text{
+	margin-top:500px;
+    text-align:center;
+    float: left;
+    margin-left: 485px;
+}
+
+.footer{
+    margin-top:520px;
+    text-align:center;
+    font-style:italic;
+    color: #dc2525;
+
+}
